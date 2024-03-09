@@ -11,7 +11,7 @@ import org.firstinspires.ftc.robotcore.external.Telemetry;
 public class Intake extends SubsystemBase {
     public static Servo  intakeLeft, intakeRight;
     public static DcMotorEx Intake;
-    public static double intakePower = 0.8;
+    public static double intakePower = 1;
     public static double intakeArmServoPos = 0.0, intakeRightPos = 0.0, intakeLeftPos = 0.0;
     public static double intakeWristInitPos = 0.2;
     public static double intakeWristIntakeDownPos = 0.60;
